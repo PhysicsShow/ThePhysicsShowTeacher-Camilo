@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Physics Show Teacher Camilo - Divulgación científica, experimentos increíbles, observaciones astronómicas y material didáctico.">
+    <title>The Physics Show Teacher Camilo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0057e7;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #003f7f;
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .banner {
+            text-align: center;
+            padding: 50px;
+            background: url('https://example.com/physics-banner.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+        }
+        .section-title {
+            color: #0057e7;
+            text-align: center;
+        }
+        .experiments, .observations {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .experiment, .observation {
+            background-color: #e0e0e0;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px;
+            width: 300px;
+        }
+        .store {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px;
+            width: 300px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #003f7f;
+            color: white;
+        }
+        .social-links {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #0057e7;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>¡Bienvenidos a The Physics Show Teacher Camilo!</h1>
+        <p>Divulgación Científica, Experimentos Asombrosos y Observaciones Astronómicas</p>
+    </header>
+
+    <nav>
+        <a href="#experimentos">Experimentos</a>
+        <a href="#observaciones">Observaciones</a>
+        <a href="#tienda">Tienda</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section class="banner">
+        <h2>Aprendizaje Activo de la Física</h2>
+        <p>Explora los secretos del universo y la ciencia con Teacher Camilo.</p>
+    </section>
+
+    <section id="experimentos">
+        <h2 class="section-title">Experimentos Increíbles</h2>
+        <div class="experiments">
+            <div class="experiment">
+                <h3>El huevo mágico</h3>
+                <p>¡Observa cómo un huevo cae dentro de un vaso de agua sin romperse!</p>
+            </div>
+            <div class="experiment">
+                <h3>Cañón de humo</h3>
+                <p>Descubre cómo hacer anillos de humo utilizando principios de física.</p>
+            </div>
+            <!-- Agregar más experimentos aquí -->
+        </div>
+    </section>
+
+    <section id="observaciones">
+        <h2 class="section-title">Observaciones Astronómicas</h2>
+        <div class="observations">
+            <div class="observation">
+                <h3>Observación Lunar</h3>
+                <p>Disfruta de nuestras sesiones en vivo de observación de la Luna con un telescopio Celestron.</p>
+            </div>
+            <div class="observation">
+                <h3>Planetas</h3>
+                <p>Mira de cerca a Júpiter y Saturno a través de nuestros equipos especializados.</p>
+            </div>
+            <!-- Agregar más observaciones aquí -->
+        </div>
+    </section>
+
+    <section id="tienda">
+        <h2 class="section-title">Tienda de Servicios y Productos Educativos</h2>
+        <div class="store">
+            <div class="product">
+                <h3>Sesión de experimentos en vivo</h3>
+                <p>Programa una clase en línea con experimentos físicos únicos.</p>
+                <a href="https://wa.me/p/3208954892500746/573115776305">Reservar vía WhatsApp</a>
+            </div>
+            <div class="product">
+                <h3>Observaciones astronómicas personalizadas</h3>
+                <p>Disfruta de una noche de observación guiada con telescopio.</p>
+                <a href="https://wa.me/p/2706058746170284/573115776305">Reservar vía WhatsApp</a>
+            </div>
+            <!-- Agregar más productos/servicios aquí -->
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2 class="section-title">Contáctanos</h2>
+        <p>¡Síguenos en nuestras redes sociales para más contenido y ciencia divertida!</p>
+        <div class="social-links">
+            <a href="https://www.youtube.com/@teachercamilothephysicssho1950" target="_blank">YouTube</a>
+            <a href="https://www.facebook.com/ThePhysicsShowTeacherCamilo/" target="_blank">Facebook</a>
+            <a href="https://www.facebook.com/AstronomyAndRobotics/" target="_blank">Astronomía y Robótica</a>
+            <a href="https://wa.me/p/3208954892500746/573115776305" target="_blank">WhatsApp</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 The Physics Show Teacher Camilo - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
